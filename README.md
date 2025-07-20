@@ -1,43 +1,69 @@
-# 💳 Credit Card Approval Prediction
+# 🏦 Financial Data EDA & Credit Risk Analysis Collection
 
-This project explores and models a credit card approval dataset using both **Exploratory Data Analysis (EDA)** and **Machine Learning** techniques.
+This repository contains a series of exploratory data analysis (EDA) and machine learning projects based on real-world financial datasets. The aim is to explore, visualize, and model credit risk, marketing outcomes, and approval decisions in various banking and lending scenarios.
 
-## 📊 Project Overview
+## 📚 Project Overview
 
-The main goal of this project is to analyze applicant features and predict whether a credit card application is approved (`1`) or rejected (`0`).
+This collection includes EDA and modeling notebooks covering:
 
-- Performed EDA to understand the data distribution, class imbalance, and feature relationships
-- Built multiple classification models (Logistic Regression, Random Forest, SVM)
-- Tuned hyperparameters using GridSearchCV
-- Handled class imbalance using SMOTE
-- Evaluated model performance using metrics such as accuracy, F1-score, confusion matrix, and ROC-AUC
-- Visualized top feature importances from Random Forest
-- Combined models using a soft voting classifier to boost performance
+- **Credit Risk Analysis:** Variable exploration and risk modeling for credit approval.
+- **Credit Card Approval Prediction:** Building machine learning models to predict credit card application outcomes.
+- **Bank Marketing Analytics:** Customer segmentation and outcome analysis using telemarketing data.
+- **P2P LendingClub Loan Analysis:** Borrower profiling, loan product analysis, and default risk exploration.
 
-## 📁 Files
+## 💡 Key Objectives
 
-- `credit_eda.ipynb`: Exploratory Data Analysis (EDA) notebook
-- `credit_modeling.ipynb`: Model building, evaluation, and improvement notebook
+- **Understand Customer and Borrower Profiles:**  
+  Analyze the demographic, financial, and behavioral characteristics of customers and loan applicants.
 
-## 🔧 Tech Stack
+- **Explore Variable Distributions and Relationships:**  
+  Visualize key features such as loan amount, interest rate, income, grade, purpose, and home ownership to understand their impact on outcomes.
 
-- Python
-- pandas, seaborn, matplotlib
-- scikit-learn, imbalanced-learn
-- Jupyter Notebook
+- **Reveal Risk Structures and Business Patterns:**  
+  Compare approval and default rates across segments (e.g., by credit grade, loan purpose, amount bins).
 
-## 📌 Key Results
+- **Lay the Foundation for Predictive Modeling:**  
+  Support downstream tasks like risk prediction, credit scoring, or marketing targeting through feature engineering and variable selection.
 
-- Best F1 Score from GridSearchCV: **0.836**
-- ROC-AUC of best classifier: **0.95**
-- Soft Voting Classifier Accuracy: **0.891**
+## 📝 Included Notebooks
 
-## 🚀 Future Work
+1. **Credit Risk Dataset EDA**
+   - Exploratory analysis of credit approval variables.
+   - Data cleaning, variable summary, and insights.
 
-- Deploy model using Streamlit or Flask
-- Add SHAP-based interpretability for feature impact
-- Explore XGBoost and LightGBM classifiers
+2. **Credit Card Approval Prediction**
+   - ML modeling (Logistic Regression, Random Forest, SVM) for credit card approval.
+   - Feature encoding, scaling, and performance comparison.
 
----
+3. **Bank Marketing Data Analysis**
+   - Analysis of Portuguese bank marketing campaigns (UCI dataset).
+   - Customer segmentation, campaign outcome visualization.
 
-*Feel free to clone, fork, or star this repo if you find it useful!*
+4. **LendingClub Loan Data EDA**
+   - Large-scale P2P loan dataset: borrower/loan profiling, default risk analysis.
+   - Default rate by grade, purpose, and amount; machine learning demo.
+
+## 📊 Example Visualizations
+
+- Variable distributions (histograms, boxplots, countplots)
+- Default/approval rate by segment (bar charts)
+- Feature importance from ML models
+
+## 🏷️ Data Sources
+
+- UCI Machine Learning Repository (Bank Marketing Data)
+- Kaggle LendingClub Loan Data
+- Public credit risk/approval datasets
+
+> **Note:** All datasets used are publicly available for research and educational purposes.
+
+## 🚀 How to Use
+
+1. Clone this repo and open the notebooks in Jupyter or VSCode.
+2. Download the corresponding datasets (see each notebook for links).
+3. Follow the code and markdown cells for step-by-step EDA and modeling.
+
+## 👤 Author
+
+Ruipu Gao (高睿璞)  
+PhD Student in Economics | Data Science & Financial Analytics
