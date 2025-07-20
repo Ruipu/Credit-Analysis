@@ -27,7 +27,7 @@ This collection includes EDA and modeling notebooks covering:
 
 ## 📝 Included Notebooks
 
-1. **Credit Risk Dataset EDA**
+1. **Credit Risk Dataset EDA**(./01_credit_eda.ipynb)  
    - Exploratory analysis of credit approval variables.
    - Data cleaning, variable summary, and insights.
 
