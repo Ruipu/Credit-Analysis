@@ -31,15 +31,15 @@ This collection includes EDA and modeling notebooks covering:
    - Exploratory analysis of credit approval variables.
    - Data cleaning, variable summary, and insights.
 
-2. **Credit Card Approval Prediction**
+2. [**Credit Card Approval Prediction**](./02_credit_approval_ml_pipline.ipynb)
    - ML modeling (Logistic Regression, Random Forest, SVM) for credit card approval.
    - Feature encoding, scaling, and performance comparison.
 
-3. **Bank Marketing Data Analysis**
+3. [**Bank Marketing Data Analysis**](./03_EDA_bank_marketing.ipynb)
    - Analysis of Portuguese bank marketing campaigns (UCI dataset).
    - Customer segmentation, campaign outcome visualization.
 
-4. **LendingClub Loan Data EDA**
+4. [**LendingClub Loan Data EDA**](./04_lendingclub_loan_analysis.ipynb)
    - Large-scale P2P loan dataset: borrower/loan profiling, default risk analysis.
    - Default rate by grade, purpose, and amount; machine learning demo.
 
