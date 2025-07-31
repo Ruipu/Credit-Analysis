@@ -66,4 +66,4 @@ This collection includes EDA and modeling notebooks covering:
 ## 👤 Author
 
 Ruipu Gao (高睿璞)  
-PhD Student in Economics | Data Science & Financial Analytics
+PhD Student in Economics 
